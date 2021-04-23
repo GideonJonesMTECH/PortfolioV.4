@@ -1,9 +1,40 @@
-nav {
+@import "./colors.scss";
+
+.navbar-expand {
+  justify-content: space-between;
+}
+
+.nav {
   display: flex;
-  justify-content: space-evenly;
-  background-color: whitesmoke;
+  justify-content: space-between;
+  background-image: url("http://www.technocrazed.com/wp-content/uploads/2015/12/HD-Space-Wallpaper-For-Background-9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  min-width: 100vw;
+  margin-left: -1em;
+  .brand {
+    a {
+      padding: 0.75em;
+      color: $silver;
+      font-size: 24px;
+      img {
+        height: 6em;
+        width: auto;
+        margin: 0.5em;
+      }
+    }
+  }
   .Links {
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
+    padding: 1em;
+    a {
+      padding: 0.75em;
+      color: silver;
+      font-size: 18px;
+    }
   }
 }

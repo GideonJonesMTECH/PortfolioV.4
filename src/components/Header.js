@@ -5,13 +5,16 @@ import { Link } from "react-router-dom";
 
 export class Header extends Component {
   render() {
+    const logov4 = require("../images/Logo.png").default;
     return (
-      <Navbar>
-        <Navbar.Brand>
+      <Navbar className="nav">
+        <Navbar.Brand className="brand">
           {" "}
-          <Link to="/">Gideon's Portfolio</Link>
+          <Link to="/">
+            <img src={logov4} alt="Gideon's Portfolio"></img>
+          </Link>
         </Navbar.Brand>
-        <Nav class="Links">
+        <Nav className="Links">
           <Link to="/">Home</Link>
           <Link to="/about">About</Link>
           <Link to="/contact">Contact</Link>
