@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/PortfolioV.4/static/css/main.5f73ff57.chunk.css",
-    "main.js": "/PortfolioV.4/static/js/main.78272e1b.chunk.js",
-    "main.js.map": "/PortfolioV.4/static/js/main.78272e1b.chunk.js.map",
-    "runtime-main.js": "/PortfolioV.4/static/js/runtime-main.8dc34e0d.js",
-    "runtime-main.js.map": "/PortfolioV.4/static/js/runtime-main.8dc34e0d.js.map",
+    "main.css": "/PortfolioV.4/static/css/main.65aeb81d.chunk.css",
+    "main.js": "/PortfolioV.4/static/js/main.165e850e.chunk.js",
+    "main.js.map": "/PortfolioV.4/static/js/main.165e850e.chunk.js.map",
+    "runtime-main.js": "/PortfolioV.4/static/js/runtime-main.4b9481e4.js",
+    "runtime-main.js.map": "/PortfolioV.4/static/js/runtime-main.4b9481e4.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PortfolioV.4/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.f1371e4f.chunk.js": "/PortfolioV.4/static/js/2.f1371e4f.chunk.js",
-    "static/js/2.f1371e4f.chunk.js.map": "/PortfolioV.4/static/js/2.f1371e4f.chunk.js.map",
-    "static/js/3.b6362f92.chunk.js": "/PortfolioV.4/static/js/3.b6362f92.chunk.js",
-    "static/js/3.b6362f92.chunk.js.map": "/PortfolioV.4/static/js/3.b6362f92.chunk.js.map",
+    "static/js/2.878c5633.chunk.js": "/PortfolioV.4/static/js/2.878c5633.chunk.js",
+    "static/js/2.878c5633.chunk.js.map": "/PortfolioV.4/static/js/2.878c5633.chunk.js.map",
+    "static/js/3.33749fec.chunk.js": "/PortfolioV.4/static/js/3.33749fec.chunk.js",
+    "static/js/3.33749fec.chunk.js.map": "/PortfolioV.4/static/js/3.33749fec.chunk.js.map",
     "index.html": "/PortfolioV.4/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PortfolioV.4/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.5f73ff57.chunk.css.map": "/PortfolioV.4/static/css/main.5f73ff57.chunk.css.map",
-    "static/js/2.f1371e4f.chunk.js.LICENSE.txt": "/PortfolioV.4/static/js/2.f1371e4f.chunk.js.LICENSE.txt"
+    "static/css/main.65aeb81d.chunk.css.map": "/PortfolioV.4/static/css/main.65aeb81d.chunk.css.map",
+    "static/js/2.878c5633.chunk.js.LICENSE.txt": "/PortfolioV.4/static/js/2.878c5633.chunk.js.LICENSE.txt",
+    "static/media/GideonAboutPhoto.jpeg": "/PortfolioV.4/static/media/GideonAboutPhoto.ead19822.jpeg",
+    "static/media/GideonLogoV3.3.png": "/PortfolioV.4/static/media/GideonLogoV3.3.b653baf8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.8dc34e0d.js",
+    "static/js/runtime-main.4b9481e4.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.f1371e4f.chunk.js",
-    "static/css/main.5f73ff57.chunk.css",
-    "static/js/main.78272e1b.chunk.js"
+    "static/js/2.878c5633.chunk.js",
+    "static/css/main.65aeb81d.chunk.css",
+    "static/js/main.165e850e.chunk.js"
   ]
 }
