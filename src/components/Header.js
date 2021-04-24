@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 export class Header extends Component {
   render() {
-    const logov4 = require("../images/Logo.png").default;
+    const logov4 = require("../images/GideonLogoV3.3.png").default;
     return (
       <Navbar className="nav">
         <Navbar.Brand className="brand">

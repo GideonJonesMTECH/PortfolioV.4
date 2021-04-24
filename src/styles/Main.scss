@@ -1,0 +1,13 @@
+@import "colors";
+
+.intro {
+  p {
+    a {
+      color: $teal;
+    }
+  }
+}
+.features {
+  display: flex;
+  flex-wrap: wrap;
+}

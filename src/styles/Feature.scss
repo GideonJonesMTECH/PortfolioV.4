@@ -1,0 +1,55 @@
+@import "colors";
+
+.Feature {
+  $imgSize: 20em;
+  height: $imgSize;
+  width: $imgSize;
+  position: relative;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  img {
+    display: block;
+    height: $imgSize;
+    width: $imgSize;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s ease;
+    background-image: linear-gradient(
+      to bottom right,
+      $neonGreen,
+      $teal,
+      $blue
+    );
+    .text {
+      color: $silver;
+      background-color: $offWhite;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.Feature:hover .overlay {
+  opacity: 1;
+}
