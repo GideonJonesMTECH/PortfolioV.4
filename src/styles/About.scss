@@ -1,11 +1,33 @@
+@import "./colors.scss";
+
 .Content {
   display: flex;
   align-items: center;
-  div {
+  .photo {
     .GideonSeniorPhoto {
       height: 30em;
       width: auto;
       margin: 2em;
+    }
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    p {
+      align-items: center;
+      font-size: 18px;
+      svg {
+        margin: 0.5em;
+        font-size: 24px;
+        color: $gold;
+        transition: ease-in-out 0.5s;
+      }
+      &:hover {
+        svg {
+          color: $silver;
+          transition: ease-in-out 0.5s;
+        }
+      }
     }
   }
 }

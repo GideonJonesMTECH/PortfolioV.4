@@ -62,7 +62,7 @@ export class Contact extends Component {
               <FontAwesomeIcon icon={["fab", "facebook"]} />
               Facebook
             </a>
-            <a href="call: (801)923-2495" target="_blank" rel="noreferrer">
+            <a href="tel:+18019232495" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={["fas", "phone-square"]} />
               (801)923-2495
             </a>

@@ -1,31 +1,58 @@
 import "../styles/About.scss";
 import { Component } from "react";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { fas } from "@fortawesome/free-solid-svg-icons";
+import { far } from "@fortawesome/free-regular-svg-icons";
+import { fab } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+library.add(fas, far, fab);
 
 export class About extends Component {
   render() {
     let usingImg;
-    switch (Math.floor(Math.random() * 2 + 1)) {
+    switch (Math.floor(Math.random() * 9 + 1)) {
       case 1:
         usingImg = require("../images/GideonAboutPhoto.jpeg").default;
         break;
-
-      default:
+      case 2:
         usingImg = require("../images/GideonAboutPhoto2.jpeg").default;
+        break;
+      case 3:
+        usingImg = require("../images/gideonbook.JPG").default;
+        break;
+      case 4:
+        usingImg = require("../images/gideonGoTheDistance.JPG").default;
+        break;
+      case 5:
+        usingImg = require("../images/GideonLean.JPG").default;
+        break;
+      case 6:
+        usingImg = require("../images/readingBook.JPG").default;
+        break;
+      case 7:
+        usingImg = require("../images/readingStanding.JPG").default;
+        break;
+      case 8:
+        usingImg = require("../images/stepGideon.JPG").default;
+        break;
+      default:
+        usingImg = require("../images/treeLean.JPG").default;
         break;
     }
     return (
       <div>
         <h1>About</h1>
         <div className="Content">
-          <div>
+          <div className="photo">
             <img
               src={usingImg}
               alt="Gideon Senior"
               className="GideonSeniorPhoto"
             />
           </div>
-          <div>
+          <div className="text">
             <p>
+              <FontAwesomeIcon icon={["fas", "code"]} />
               Hey! I'm Gideon Jones. I just turned 18, and I'm almost graduated
               from{" "}
               <a
@@ -57,6 +84,7 @@ export class About extends Component {
               some really fun projects.
             </p>
             <p>
+              <FontAwesomeIcon icon={["fas", "pencil-alt"]} />
               I've always been a huge nerd. I love reading and writing, video
               games and DnD. I love the Marvel movies, tolerate a few of the DC
               movies, and I'm slowly making my way through the{" "}
@@ -72,10 +100,39 @@ export class About extends Component {
               Unfortunately, these stories didn't turn out the <i>best</i>, per
               se, but I did learn a lot about writing, and how much time I could
               spend on just one project. I've spent hours on coding projects
-              since then, but that was the first real oportunity to work hard on
-              just one project.
+              since then, but that was the first real opportunity to work hard
+              on just one project.
             </p>
-            <p>Dnd stuff (replace l8r)</p>
+            <p>
+              <FontAwesomeIcon icon={["fab", "d-and-d"]} />
+              As I said earlier, I love <i>Dungeons and Dragons!</i> It's such a
+              fun chance to hang out with my friends, create worlds and stories,
+              and be part of an epic adventure! I've been playing for the fast
+              few years, and I've loved every second of it.
+            </p>
+            <p>
+              <FontAwesomeIcon icon={["fas", "store"]} />
+              I'm currently working as an <i>
+                Online Grocery Pickup Associate
+              </i>{" "}
+              at{" "}
+              <a
+                href="https://www.walmart.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Walmart
+              </a>
+              . Me and my team will do several different jobs, with each leading
+              into the next. We often deal with high-stress situations, and
+              perform Customer Service at the same time. While I'm on the clock,
+              I'm hard working, friendly, and I make sure things get done.
+              Working at Walmart doesn't sound like much, I'll admit. However,
+              it's been a great opportunity to be around people that I'm usually
+              not around, and it's also been a good opportunity to make money,
+              even though I'm a teenager. If you'd like to talk to my manager,
+              contact me, and I can get you in touch!
+            </p>
           </div>
         </div>
       </div>

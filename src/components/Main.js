@@ -68,8 +68,23 @@ export class Main extends Component {
             title="Firebase"
             description="I have experience using Firebase in my applications, including logging people in and displaying their data."
           />
-          {/* C#, JS, C++ */}
+          <MainFeature
+            title="Javascript"
+            imgsrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkajabi-storefronts-production.global.ssl.fastly.net%2Fkajabi-storefronts-production%2Fthemes%2F3294329%2Fsettings_images%2FbyKdqp3Qn6mu4zGQcFTA_javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png&f=1&nofb=1"
+            description="I've been coding with JS for about a year now. It's what I'm most comfortable with at the moment, and what I primarily code in. "
+          />
+          <MainFeature
+            imgsrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages.yourstory.com%2Fcs%2F1%2F4d86d9c0bc2011eab9669d7b50440f7b%2Fc-sharp-c-logo-02F17714BA-seeklogo-1593940315690.png%3Ffm%3Dpng%26auto%3Dformat&f=1&nofb=1"
+            title="C#"
+            description="I've been coding with C# for a few years. I passed the two classes at my high school with flying colors. I'm a but rusty now though."
+          />
+          <MainFeature
+            title="C++"
+            imgsrc="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fisocpp.org%2Fassets%2Fimages%2Fcpp_logo.png&f=1&nofb=1"
+            description="I have experience in C++. but I haven't worked with it in a while, so I could use a bit of a review."
+          />
         </div>
+
         <div className="Projects">
           <ul>
             <li>
@@ -134,6 +149,34 @@ export class Main extends Component {
                 rel="noreferrer"
               >
                 HTML/CSS RYParis
+              </a>
+            </li>
+            <h5>Old Portfolios (Look how far I've come!)</h5>
+            <li>
+              <a
+                href="https://gideonjonesmtech.github.io/PortfolioV.0/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio 1 (Pre MTECH)
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://gideonjonesmtech.github.io/PortfolioV.1/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio 2
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://gideonjonesmtech.github.io/PortfolioV.2/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio 3
               </a>
             </li>
           </ul>

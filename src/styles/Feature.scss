@@ -35,7 +35,6 @@
     );
     .text {
       padding: 1em;
-      color: $silver;
       background-color: $offWhite;
       position: absolute;
       width: $imgSize - 1em;
@@ -46,9 +45,11 @@
       -ms-transform: translate(-50%, -50%);
       h2 {
         font-size: 24px;
+        color: $dark-silver;
       }
       p {
         font-size: 18px;
+        color: $silver;
       }
     }
   }
