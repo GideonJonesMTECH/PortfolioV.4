@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export class Error extends Component {
   render() {
     return (
-      <div>
+      <div className="ErrorDiv">
         <h1>Error</h1>
         <h3>
           Hey! It looks like you managed to direct to an incorrect page! Sorry
