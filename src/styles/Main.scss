@@ -10,4 +10,20 @@
 .features {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.Projects {
+  ul {
+    li {
+      a {
+        color: $teal;
+      }
+      .disabled {
+        pointer-events: none;
+        color: $dark;
+      }
+    }
+  }
 }

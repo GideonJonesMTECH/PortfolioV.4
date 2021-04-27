@@ -1,11 +1,14 @@
-import "../styles/Contact.scss";
-import { Component } from "react";
+import { React, Component } from "react";
 
 export class Contact extends Component {
   render() {
     return (
       <div>
-        <h1>Contact</h1>
+        <h2>Contact Me!</h2>
+        <div>
+          <div className="Form"></div>
+          <div className="Socials"></div>
+        </div>
       </div>
     );
   }
