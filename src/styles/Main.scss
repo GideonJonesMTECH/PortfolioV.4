@@ -1,28 +1,31 @@
 @import "colors";
 
-.intro {
-  p {
-    a {
-      color: $teal;
-    }
-  }
-}
-.features {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-
-.Projects {
-  ul {
-    li {
+.MainContent {
+  padding: 1em;
+  .intro {
+    p {
       a {
         color: $teal;
       }
-      .disabled {
-        pointer-events: none;
-        color: $dark;
+    }
+  }
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+
+  .Projects {
+    ul {
+      li {
+        a {
+          color: $teal;
+        }
+        .disabled {
+          pointer-events: none;
+          color: $dark;
+        }
       }
     }
   }

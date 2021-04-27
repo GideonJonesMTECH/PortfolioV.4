@@ -75,6 +75,7 @@ export class About extends Component {
               since then, but that was the first real oportunity to work hard on
               just one project.
             </p>
+            <p>Dnd stuff (replace l8r)</p>
           </div>
         </div>
       </div>

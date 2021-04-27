@@ -6,7 +6,7 @@ import { MainFeature } from "./MainFeature";
 export class Main extends Component {
   render() {
     return (
-      <div>
+      <div className="MainContent">
         <div className="intro">
           <h1>Main</h1>
           <h3>Welcome to my Portfolio!</h3>
@@ -68,6 +68,7 @@ export class Main extends Component {
             title="Firebase"
             description="I have experience using Firebase in my applications, including logging people in and displaying their data."
           />
+          {/* C#, JS, C++ */}
         </div>
         <div className="Projects">
           <ul>
