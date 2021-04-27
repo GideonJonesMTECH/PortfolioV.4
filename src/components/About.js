@@ -3,16 +3,14 @@ import { Component } from "react";
 
 export class About extends Component {
   render() {
-    const aboutImg = require("../images/GideonAboutPhoto.jpeg").default;
-    const aboutImg2 = require("../images/GideonAboutPhoto2.jpeg").default;
     let usingImg;
     switch (Math.floor(Math.random() * 2 + 1)) {
       case 1:
-        usingImg = aboutImg;
+        usingImg = require("../images/GideonAboutPhoto.jpeg").default;
         break;
 
       default:
-        usingImg = aboutImg2;
+        usingImg = require("../images/GideonAboutPhoto2.jpeg").default;
         break;
     }
     return (

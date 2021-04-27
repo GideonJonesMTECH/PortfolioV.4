@@ -34,10 +34,12 @@
       $blue
     );
     .text {
+      padding: 1em;
       color: $silver;
       background-color: $offWhite;
       position: absolute;
-      width: $imgSize - 2em;
+      width: $imgSize - 1em;
+      height: $imgSize - 1em;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
