@@ -1,28 +1,35 @@
 {
   "files": {
     "main.css": "/PortfolioV.4/static/css/main.0b8f6c5a.chunk.css",
-    "main.js": "/PortfolioV.4/static/js/main.68f6576d.chunk.js",
-    "main.js.map": "/PortfolioV.4/static/js/main.68f6576d.chunk.js.map",
-    "runtime-main.js": "/PortfolioV.4/static/js/runtime-main.66d72139.js",
-    "runtime-main.js.map": "/PortfolioV.4/static/js/runtime-main.66d72139.js.map",
+    "main.js": "/PortfolioV.4/static/js/main.d3243614.chunk.js",
+    "main.js.map": "/PortfolioV.4/static/js/main.d3243614.chunk.js.map",
+    "runtime-main.js": "/PortfolioV.4/static/js/runtime-main.d90d7918.js",
+    "runtime-main.js.map": "/PortfolioV.4/static/js/runtime-main.d90d7918.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PortfolioV.4/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b8cef815.chunk.js": "/PortfolioV.4/static/js/2.b8cef815.chunk.js",
-    "static/js/2.b8cef815.chunk.js.map": "/PortfolioV.4/static/js/2.b8cef815.chunk.js.map",
-    "static/js/3.73d155f7.chunk.js": "/PortfolioV.4/static/js/3.73d155f7.chunk.js",
-    "static/js/3.73d155f7.chunk.js.map": "/PortfolioV.4/static/js/3.73d155f7.chunk.js.map",
+    "static/js/2.a23d1cfb.chunk.js": "/PortfolioV.4/static/js/2.a23d1cfb.chunk.js",
+    "static/js/2.a23d1cfb.chunk.js.map": "/PortfolioV.4/static/js/2.a23d1cfb.chunk.js.map",
+    "static/js/3.25c5743d.chunk.js": "/PortfolioV.4/static/js/3.25c5743d.chunk.js",
+    "static/js/3.25c5743d.chunk.js.map": "/PortfolioV.4/static/js/3.25c5743d.chunk.js.map",
     "index.html": "/PortfolioV.4/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PortfolioV.4/static/css/2.4c97ca4f.chunk.css.map",
     "static/css/main.0b8f6c5a.chunk.css.map": "/PortfolioV.4/static/css/main.0b8f6c5a.chunk.css.map",
-    "static/js/2.b8cef815.chunk.js.LICENSE.txt": "/PortfolioV.4/static/js/2.b8cef815.chunk.js.LICENSE.txt",
+    "static/js/2.a23d1cfb.chunk.js.LICENSE.txt": "/PortfolioV.4/static/js/2.a23d1cfb.chunk.js.LICENSE.txt",
     "static/media/GideonAboutPhoto.jpeg": "/PortfolioV.4/static/media/GideonAboutPhoto.ead19822.jpeg",
     "static/media/GideonAboutPhoto2.jpeg": "/PortfolioV.4/static/media/GideonAboutPhoto2.540d3d80.jpeg",
-    "static/media/GideonLogoV3.3.png": "/PortfolioV.4/static/media/GideonLogoV3.3.b653baf8.png"
+    "static/media/GideonLean.JPG": "/PortfolioV.4/static/media/GideonLean.d5e10a09.JPG",
+    "static/media/GideonLogoV3.3.png": "/PortfolioV.4/static/media/GideonLogoV3.3.b653baf8.png",
+    "static/media/gideonGoTheDistance.JPG": "/PortfolioV.4/static/media/gideonGoTheDistance.62ce4c50.JPG",
+    "static/media/gideonbook.JPG": "/PortfolioV.4/static/media/gideonbook.fac51f99.JPG",
+    "static/media/readingBook.JPG": "/PortfolioV.4/static/media/readingBook.9546cc2f.JPG",
+    "static/media/readingStanding.JPG": "/PortfolioV.4/static/media/readingStanding.33e1c6f9.JPG",
+    "static/media/stepGideon.JPG": "/PortfolioV.4/static/media/stepGideon.0e8128c9.JPG",
+    "static/media/treeLean.JPG": "/PortfolioV.4/static/media/treeLean.fa9c7470.JPG"
   },
   "entrypoints": [
-    "static/js/runtime-main.66d72139.js",
+    "static/js/runtime-main.d90d7918.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b8cef815.chunk.js",
+    "static/js/2.a23d1cfb.chunk.js",
     "static/css/main.0b8f6c5a.chunk.css",
-    "static/js/main.68f6576d.chunk.js"
+    "static/js/main.d3243614.chunk.js"
   ]
 }
