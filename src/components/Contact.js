@@ -70,7 +70,7 @@ export class Contact extends Component {
                 </li>
                 <li>
                   <a
-                    href="https://www.facebook.com/profile.php?id=100016624651889"
+                    href="https://www.facebook.com/"
                     target="_blank"
                     rel="noreferrer"
                   >

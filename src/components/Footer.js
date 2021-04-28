@@ -14,7 +14,7 @@ export class Footer extends Component {
         <div>
           <div className="brand">
             {" "}
-            <Link to="/">
+            <Link to="/PortfolioV.4/">
               <img src={logov4} alt="Gideon's Portfolio"></img>
             </Link>
           </div>

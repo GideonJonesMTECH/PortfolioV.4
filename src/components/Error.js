@@ -12,7 +12,7 @@ export class Error extends Component {
           about that! Click the button below to go back home, or the links in
           the NavBars.
         </h3>
-        <Link to="/">
+        <Link to="/PortfolioV.4/">
           <button>Home</button>
         </Link>
       </div>

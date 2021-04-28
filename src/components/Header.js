@@ -23,7 +23,7 @@ export class Header extends Component {
         <div className="brand-toggle">
           <div className="brand">
             {" "}
-            <Link to="/">
+            <Link to="/PortfolioV.4/">
               <img src={logov4} alt="Gideon's Portfolio"></img>
             </Link>
           </div>
@@ -35,15 +35,15 @@ export class Header extends Component {
           <ul>
             <li>
               {" "}
-              <Link to="/">Home</Link>
+              <Link to="/PortfolioV.4/">Home</Link>
             </li>
             <li>
               {" "}
-              <Link to="/about">About</Link>
+              <Link to="/PortfolioV.4/about">About</Link>
             </li>
             <li>
               {" "}
-              <Link to="/contact">Contact</Link>
+              <Link to="/PortfolioV.4/contact">Contact</Link>
             </li>
             <li>
               <a

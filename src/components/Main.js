@@ -2,6 +2,7 @@ import "../styles/Main.scss";
 import "../styles/Feature.scss";
 import { Component } from "react";
 import { MainFeature } from "./MainFeature";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export class Main extends Component {
   render() {
@@ -36,7 +37,7 @@ export class Main extends Component {
           <MainFeature
             imgsrc="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png"
             title="HTML"
-            description="I am proficient in scssLink, however I don't use it very often. Instead, I use other Frameworks like React or Angular."
+            description="I am proficient in HTML, however I don't use it very often. Instead, I use other Frameworks like React or Angular."
           />
 
           <MainFeature
@@ -48,7 +49,7 @@ export class Main extends Component {
           <MainFeature
             imgsrc="https://ugross.gallerycdn.vsassets.io/extensions/ugross/vscode-react-snippets/1.3.0/1519481679046/Microsoft.VisualStudio.Services.Icons.Default"
             title="React"
-            description="I worked with React in my MTECH class, but I'm a bit rusty. That's why I made my portfolio with it!"
+            description="I worked with React in my MTECH class, but recently I've been working with Angular. That's why I made my portfolio with React!"
           />
 
           <MainFeature
@@ -76,12 +77,12 @@ export class Main extends Component {
           <MainFeature
             imgsrc="https://teknosejahtera.com/wp-content/uploads/2021/01/C-Logo-2021.png"
             title="C#"
-            description="I've been coding with C# for a few years. I passed the two classes at my high school with flying colors. I'm a but rusty now though."
+            description="I've been coding with C# for a few years. I passed the two classes at my high school with flying colors!"
           />
           <MainFeature
             title="C++"
             imgsrc="https://isocpp.org/assets/images/cpp_logo.png"
-            description="I have experience in C++. but I haven't worked with it in a while, so I could use a bit of a review."
+            description="I have experience in C++, I learned about it in the same classes as C#."
           />
         </div>
 
@@ -89,12 +90,18 @@ export class Main extends Component {
           <ul>
             <li>
               <a
-                href="https://gideonjonesmtech.github.io/GroupAngularPokemon/"
+                href="https://pokemonmatching.web.app/"
                 target="_blank"
                 rel="noreferrer"
-                className="disabled"
               >
-                Angular Pokémon Matching Game (Under Construction)
+                Group Angular Pokémon Matching Game
+              </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/GroupAngularPokemon"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
             <li>
@@ -105,6 +112,13 @@ export class Main extends Component {
               >
                 React E-Commerce Store
               </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/React-Store"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </li>
             <li>
               <a
@@ -113,6 +127,13 @@ export class Main extends Component {
                 rel="noreferrer"
               >
                 JS Golf Scorecard
+              </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/Golf-Scorecard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
             <li>
@@ -123,6 +144,13 @@ export class Main extends Component {
               >
                 Angular Golf Scorecard
               </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/Angular-Golf-Scorecard"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </li>
             <li>
               <a
@@ -131,6 +159,13 @@ export class Main extends Component {
                 rel="noreferrer"
               >
                 To-Do App
+              </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/To-Do-App"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
             <li>
@@ -141,6 +176,13 @@ export class Main extends Component {
               >
                 HTML/CSS MiHealth
               </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/MiHealthWebsite"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </li>
             <li>
               <a
@@ -149,6 +191,13 @@ export class Main extends Component {
                 rel="noreferrer"
               >
                 HTML/CSS RYParis
+              </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/RYParisWebsite"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
             <h5>Old Portfolios (Look how far I've come!)</h5>
@@ -160,6 +209,13 @@ export class Main extends Component {
               >
                 Portfolio 1 (Pre MTECH)
               </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/PortfolioV.0"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </li>
             <li>
               <a
@@ -169,6 +225,13 @@ export class Main extends Component {
               >
                 Portfolio 2
               </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/PortfolioV.1/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
             </li>
             <li>
               <a
@@ -177,6 +240,13 @@ export class Main extends Component {
                 rel="noreferrer"
               >
                 Portfolio 3
+              </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/PortfolioV.2/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
           </ul>

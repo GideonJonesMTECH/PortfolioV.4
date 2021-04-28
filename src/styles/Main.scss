@@ -22,6 +22,9 @@
         list-style-type: disc;
         a {
           color: $teal;
+          svg {
+            margin-left: 1em;
+          }
         }
         .disabled {
           pointer-events: none;
