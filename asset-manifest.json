@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/PortfolioV.4/static/css/main.e1925281.chunk.css",
-    "main.js": "/PortfolioV.4/static/js/main.ea49235f.chunk.js",
-    "main.js.map": "/PortfolioV.4/static/js/main.ea49235f.chunk.js.map",
+    "main.css": "/PortfolioV.4/static/css/main.53394050.chunk.css",
+    "main.js": "/PortfolioV.4/static/js/main.c75d21a1.chunk.js",
+    "main.js.map": "/PortfolioV.4/static/js/main.c75d21a1.chunk.js.map",
     "runtime-main.js": "/PortfolioV.4/static/js/runtime-main.4b9481e4.js",
     "runtime-main.js.map": "/PortfolioV.4/static/js/runtime-main.4b9481e4.js.map",
     "static/css/2.4c97ca4f.chunk.css": "/PortfolioV.4/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b00a4fdc.chunk.js": "/PortfolioV.4/static/js/2.b00a4fdc.chunk.js",
-    "static/js/2.b00a4fdc.chunk.js.map": "/PortfolioV.4/static/js/2.b00a4fdc.chunk.js.map",
+    "static/js/2.078d591a.chunk.js": "/PortfolioV.4/static/js/2.078d591a.chunk.js",
+    "static/js/2.078d591a.chunk.js.map": "/PortfolioV.4/static/js/2.078d591a.chunk.js.map",
     "static/js/3.33749fec.chunk.js": "/PortfolioV.4/static/js/3.33749fec.chunk.js",
     "static/js/3.33749fec.chunk.js.map": "/PortfolioV.4/static/js/3.33749fec.chunk.js.map",
     "index.html": "/PortfolioV.4/index.html",
     "static/css/2.4c97ca4f.chunk.css.map": "/PortfolioV.4/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.e1925281.chunk.css.map": "/PortfolioV.4/static/css/main.e1925281.chunk.css.map",
-    "static/js/2.b00a4fdc.chunk.js.LICENSE.txt": "/PortfolioV.4/static/js/2.b00a4fdc.chunk.js.LICENSE.txt",
+    "static/css/main.53394050.chunk.css.map": "/PortfolioV.4/static/css/main.53394050.chunk.css.map",
+    "static/js/2.078d591a.chunk.js.LICENSE.txt": "/PortfolioV.4/static/js/2.078d591a.chunk.js.LICENSE.txt",
     "static/media/GideonAboutPhoto.jpeg": "/PortfolioV.4/static/media/GideonAboutPhoto.ead19822.jpeg",
     "static/media/GideonAboutPhoto2.jpeg": "/PortfolioV.4/static/media/GideonAboutPhoto2.540d3d80.jpeg",
     "static/media/GideonLean.JPG": "/PortfolioV.4/static/media/GideonLean.d5e10a09.JPG",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.4b9481e4.js",
     "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.b00a4fdc.chunk.js",
-    "static/css/main.e1925281.chunk.css",
-    "static/js/main.ea49235f.chunk.js"
+    "static/js/2.078d591a.chunk.js",
+    "static/css/main.53394050.chunk.css",
+    "static/js/main.c75d21a1.chunk.js"
   ]
 }
