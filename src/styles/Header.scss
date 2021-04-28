@@ -38,7 +38,7 @@
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: $mobileWidth) {
   #header {
     flex-direction: column;
     align-items: flex-start;

@@ -1,6 +1,7 @@
 @import "./colors.scss";
+@import "./styles.scss";
 
-.ContactContent {
+.contactContent {
   min-height: 100vh;
   margin: 1em;
   padding: 1em;
@@ -27,6 +28,19 @@
           font-size: 30px;
           margin-right: 0.5em;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: $mobileWidth) {
+  .contactContent {
+    .Socials {
+      flex-direction: column;
+      width: 100vw;
+      .Developer,
+      .Fun {
+        width: 100%;
       }
     }
   }
