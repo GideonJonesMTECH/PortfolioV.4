@@ -4,12 +4,26 @@
 
 #header {
   display: flex;
-  .toggle-button {
-    display: none;
-    position: absolute;
-    top: 0.75em;
-    right: 1em;
-    font-size: 30px;
+  .brand-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .toggle-button {
+      display: none;
+      font-size: 30px;
+      outline: none;
+      background-color: transparent;
+      border: none;
+      color: $silver;
+      font-size: 48px;
+      transition: ease-in-out 0.5s;
+      &:hover {
+        color: $gold;
+        transition: ease-in-out 0.5s;
+        border-top: 1px solid $gold;
+        background-color: $silver-bkgnd;
+      }
+    }
   }
   .Links {
     ul {
@@ -42,9 +56,17 @@
   #header {
     flex-direction: column;
     align-items: flex-start;
-    .toggle-button {
+    .brand-toggle {
       display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+      .toggle-button {
+        display: flex;
+        margin-left: 3em;
+      }
     }
+
     .Links {
       display: none;
       width: 100%;

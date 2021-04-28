@@ -20,7 +20,7 @@ export class Header extends Component {
     const logov4 = require("../images/GideonLogoV3.3.png").default;
     return (
       <header className="navbar" id="header">
-        <div>
+        <div className="brand-toggle">
           <div className="brand">
             {" "}
             <Link to="/">
