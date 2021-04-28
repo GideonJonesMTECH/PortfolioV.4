@@ -5,6 +5,7 @@ import { About } from "./About";
 import { Contact } from "./Contact";
 import { Header } from "./Header";
 import { Error } from "./Error";
+import { Footer } from "./Footer";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../styles/styles.scss";
@@ -20,7 +21,7 @@ export class Root extends Component {
           <Route path="/contact" component={Contact} />
           <Route component={Error} />
         </Switch>
-        <Header />
+        <Footer />
       </div>
     );
   }
