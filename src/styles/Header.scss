@@ -14,14 +14,14 @@
       outline: none;
       background-color: transparent;
       border: none;
-      color: $silver;
+      color: $gold;
       font-size: 48px;
       transition: ease-in-out 0.5s;
       &:hover {
-        color: $gold;
+        color: $silver;
         transition: ease-in-out 0.5s;
         border-top: 1px solid $gold;
-        background-color: $silver-bkgnd;
+        background-color: $gold-bkgnd;
       }
     }
   }
@@ -37,14 +37,14 @@
         padding: 0.25em;
         a {
           text-decoration: none;
-          color: $silver;
+          color: $gold;
           font-size: 20px;
           transition: ease-in-out 0.5s;
           &:hover {
-            color: $gold;
+            color: $silver;
             transition: ease-in-out 0.5s;
             border-top: 1px solid $gold;
-            background-color: $silver-bkgnd;
+            background-color: $gold-bkgnd;
           }
         }
       }
