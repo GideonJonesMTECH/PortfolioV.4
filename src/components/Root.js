@@ -16,9 +16,9 @@ export class Root extends Component {
       <div className="container">
         <Header />
         <Switch className="routerOutlet">
-          <Route exact path="/" component={Main} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
+          <Route exact path="/PortfolioV.4/" component={Main} />
+          <Route path="/PortfolioV.4/about" component={About} />
+          <Route path="/PortfolioV.4/contact" component={Contact} />
           <Route component={Error} />
         </Switch>
         <Footer />
