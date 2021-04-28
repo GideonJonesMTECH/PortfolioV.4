@@ -15,7 +15,7 @@ export class Root extends Component {
     return (
       <div className="container">
         <Header />
-        <Switch>
+        <Switch className="routerOutlet">
           <Route exact path="/" component={Main} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />

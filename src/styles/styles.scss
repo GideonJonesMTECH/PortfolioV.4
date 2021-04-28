@@ -8,9 +8,11 @@
   background-position: center;
   min-height: 100vh;
   min-width: 100vw;
-  margin: 1em;
-  padding: 1em;
+  .routerOutlet {
+    padding: 1em;
+    margin: 1em;
+  }
 }
 
 $navHeight: 5em;
-$mobileWidth: 750px;
+$mobileWidth: 600px;
