@@ -35,9 +35,13 @@
       a {
         color: $gold;
         text-decoration: none;
+        transition: ease-in-out 0.5s;
       }
       &:hover {
-        color: teal;
+        a {
+          color: teal;
+          transition: ease-in-out 0.5s;
+        }
       }
     }
   }
