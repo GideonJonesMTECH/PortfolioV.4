@@ -49,6 +49,17 @@ export class About extends Component {
               alt="Gideon Senior"
               className="GideonSeniorPhoto"
             />
+            <p>
+              These pictures were taken by my friend Brynna! Find her on
+              instagram!{" "}
+              <a
+                href="https://www.instagram.com/brynnaphotography/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                brynnaphotography
+              </a>
+            </p>
           </div>
           <div className="text">
             <p>
