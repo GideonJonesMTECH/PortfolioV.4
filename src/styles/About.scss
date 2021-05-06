@@ -36,6 +36,10 @@
         color: $gold;
         text-decoration: none;
         transition: ease-in-out 0.5s;
+        &:hover {
+          text-decoration: underline;
+          transition: ease-in-out 0.5s;
+        }
       }
       &:hover {
         a {
