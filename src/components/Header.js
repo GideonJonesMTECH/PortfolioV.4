@@ -12,7 +12,6 @@ library.add(fas, far, fab);
 export class Header extends Component {
   toggleLinks() {
     const navLinks = document.getElementsByClassName("Links")[0];
-    console.log(navLinks);
     navLinks.classList.toggle("active");
   }
 

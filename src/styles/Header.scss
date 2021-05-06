@@ -17,11 +17,12 @@
       color: $gold;
       font-size: 48px;
       transition: ease-in-out 0.5s;
+      padding: 0.5em;
       &:hover {
-        color: $silver;
+        color: $teal;
         transition: ease-in-out 0.5s;
         border-top: 1px solid $gold;
-        background-color: $gold-bkgnd;
+        background-color: $gold;
       }
     }
   }
@@ -40,11 +41,12 @@
           color: $gold;
           font-size: 20px;
           transition: ease-in-out 0.5s;
+          padding: 0.25em;
           &:hover {
-            color: $silver;
+            color: $teal;
             transition: ease-in-out 0.5s;
             border-top: 1px solid $gold;
-            background-color: $gold-bkgnd;
+            background-color: $gold;
           }
         }
       }

@@ -10,14 +10,15 @@
     outline: none;
     background-color: transparent;
     border: none;
-    color: $silver;
+    color: $gold;
     font-size: 20px;
     transition: ease-in-out 0.5s;
+    margin: 1em;
     &:hover {
-      color: $gold;
+      color: $teal;
       transition: ease-in-out 0.5s;
       border-top: 1px solid $gold;
-      background-color: $silver-bkgnd;
+      background-color: $gold;
     }
   }
 }
