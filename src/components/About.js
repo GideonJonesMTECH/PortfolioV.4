@@ -9,36 +9,8 @@ library.add(fas, far, fab);
 
 export class About extends Component {
   render() {
-    let usingImg;
-    switch (Math.floor(Math.random() * 9 + 1)) {
-      case 1:
-        usingImg = require("../images/GideonAboutPhoto.jpeg").default;
-        break;
-      case 2:
-        usingImg = require("../images/GideonAboutPhoto2.jpeg").default;
-        break;
-      case 3:
-        usingImg = require("../images/gideonbook.JPG").default;
-        break;
-      case 4:
-        usingImg = require("../images/gideonGoTheDistance.JPG").default;
-        break;
-      case 5:
-        usingImg = require("../images/GideonLean.JPG").default;
-        break;
-      case 6:
-        usingImg = require("../images/readingBook.JPG").default;
-        break;
-      case 7:
-        usingImg = require("../images/readingStanding.JPG").default;
-        break;
-      case 8:
-        usingImg = require("../images/stepGideon.JPG").default;
-        break;
-      default:
-        usingImg = require("../images/treeLean.JPG").default;
-        break;
-    }
+    let randomImg = Math.floor(Math.random() * 9 + 1);
+    let usingImg = require(`../images/Abt${randomImg}.jpeg`).default;
     return (
       <div>
         <h1>About</h1>
