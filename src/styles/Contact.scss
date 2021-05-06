@@ -26,9 +26,17 @@
             padding: 0.25em;
             color: $teal;
             text-decoration: none;
+            transition: ease-in-out 0.5s;
+
             svg {
               font-size: 30px;
               margin-right: 0.5em;
+            }
+          }
+          &:hover {
+            a {
+              color: $gold;
+              transition: ease-in-out 0.5s;
             }
           }
         }
