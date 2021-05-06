@@ -17,7 +17,7 @@ export class Header extends Component {
   }
 
   render() {
-    const logov4 = require("../images/GideonLogoV3.3.png").default;
+    const logov4 = require("../images/GideonLogoV4.png").default;
     return (
       <header className="navbar" id="header">
         <div className="brand-toggle">
