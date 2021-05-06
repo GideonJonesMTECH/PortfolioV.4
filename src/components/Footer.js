@@ -8,7 +8,7 @@ export class Footer extends Component {
   };
 
   render() {
-    const logov4 = require("../images/GideonLogoV4.png").default;
+    const logov4 = require("../images/GideonLogoV4Gold.png").default;
     return (
       <footer className="navbar" id="footer">
         <div>
