@@ -14,11 +14,12 @@
     font-size: 20px;
     transition: ease-in-out 0.5s;
     margin: 1em;
+    font-weight: bold;
+    border-top: 1px solid transparent;
     &:hover {
       color: $teal;
       transition: ease-in-out 0.5s;
       border-top: 1px solid $gold;
-      background-color: $gold;
     }
   }
 }
