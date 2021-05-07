@@ -88,10 +88,17 @@ export class About extends Component {
             </p>
             <p>
               <FontAwesomeIcon icon={["fab", "d-and-d"]} />
-              As I said earlier, I love <i>Dungeons and Dragons!</i> It's such a
-              fun chance to hang out with my friends, create worlds and stories,
-              and be part of an epic adventure! I've been playing for the fast
-              few years, and I've loved every second of it.
+              As I said earlier, I love{" "}
+              <a
+                href="https://dnd.wizards.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <i>Dungeons and Dragons</i>
+              </a>
+              ! It's such a fun chance to hang out with my friends, create
+              worlds and stories, and be part of an epic adventure! I've been
+              playing for the fast few years, and I've loved every second of it.
             </p>
             <p>
               <FontAwesomeIcon icon={["fas", "tools"]} />I have actually

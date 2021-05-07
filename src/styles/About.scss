@@ -19,9 +19,10 @@
         color: $gold;
         text-decoration: none;
         transition: ease-in-out 0.5s;
+        border-bottom: 1px solid transparent;
         &:hover {
           color: $teal;
-          text-decoration: underline;
+          border-bottom: 1px solid $teal;
           transition: ease-in-out 0.5s;
         }
       }
@@ -48,8 +49,9 @@
           color: $gold;
           text-decoration: none;
           transition: ease-in-out 0.5s;
+          border-bottom: 1px solid transparent;
           &:hover {
-            text-decoration: underline;
+            border-bottom: 1px solid $teal;
             transition: ease-in-out 0.5s;
           }
         }

@@ -23,6 +23,7 @@
         ul {
           li {
             list-style: none;
+            margin: 1em;
             a {
               justify-content: center;
               font-size: 24px;
@@ -30,7 +31,8 @@
               color: $teal;
               text-decoration: none;
               transition: ease-in-out 0.5s;
-
+              border-bottom: 1px solid transparent;
+              margin: 1em;
               svg {
                 font-size: 30px;
                 margin-right: 0.5em;
@@ -40,7 +42,7 @@
               a {
                 color: $gold;
                 transition: ease-in-out 0.5s;
-                text-decoration: underline;
+                border-bottom: 1px solid $gold;
               }
             }
           }
