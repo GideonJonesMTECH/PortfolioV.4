@@ -8,6 +8,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     .toggle-button {
       display: none;
       font-size: 30px;
@@ -59,13 +60,9 @@
     flex-direction: column;
     align-items: flex-start;
     .brand-toggle {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      align-content: center;
       .toggle-button {
         display: flex;
-        margin-left: 3em;
+        margin: 1em;
       }
     }
 
