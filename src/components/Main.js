@@ -248,6 +248,22 @@ export class Main extends Component {
                 <FontAwesomeIcon icon={["fab", "github"]} />
               </a>
             </li>
+            <li>
+              <a
+                href="https://gideonjonesmtech.github.io/PortfolioV.4/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Portfolio 4 (This One!)
+              </a>
+              <a
+                href="https://github.com/GideonJonesMTECH/PortfolioV.4/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FontAwesomeIcon icon={["fab", "github"]} />
+              </a>
+            </li>
           </ul>
         </div>
       </div>
