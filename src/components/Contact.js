@@ -12,8 +12,8 @@ export class Contact extends Component {
   library;
   render() {
     return (
-      <div>
-        <h2>Contact Me!</h2>
+      <div className="contactMain">
+        <h1>Contact Me!</h1>
         <div className="contactContent">
           <div className="Socials">
             <div className="Developer">

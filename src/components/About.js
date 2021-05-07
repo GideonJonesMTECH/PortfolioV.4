@@ -12,8 +12,8 @@ export class About extends Component {
     let randomImg = Math.floor(Math.random() * 9 + 1);
     let usingImg = require(`../images/Abt${randomImg}.jpeg`).default;
     return (
-      <div>
-        <h1>About</h1>
+      <div className="aboutTot">
+        <h1>About Gideon</h1>
         <div className="aboutContent">
           <div className="photo">
             <img

@@ -1,50 +1,53 @@
 @import "./colors.scss";
 @import "./styles.scss";
 
-.aboutContent {
-  display: flex;
-  align-items: center;
-  .photo {
-    margin: 2em;
+.aboutTot {
+  padding: 1em;
+  .aboutContent {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    .GideonSeniorPhoto {
-      height: 30em;
-      width: auto;
-    }
-  }
-  .text {
-    display: flex;
-    flex-direction: column;
-    p {
+    .photo {
+      margin: 2em;
+      display: flex;
       align-items: center;
-      font-size: 18px;
-      svg {
-        margin: 0.5em;
-        font-size: 24px;
-        color: $gold;
-        transition: ease-in-out 0.5s;
+      flex-direction: column;
+      .GideonSeniorPhoto {
+        height: 30em;
+        width: auto;
       }
-      &:hover {
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      p {
+        align-items: center;
+        font-size: 18px;
         svg {
-          color: $teal;
+          margin: 0.5em;
+          font-size: 24px;
+          color: $gold;
           transition: ease-in-out 0.5s;
         }
-      }
-      a {
-        color: $gold;
-        text-decoration: none;
-        transition: ease-in-out 0.5s;
         &:hover {
-          text-decoration: underline;
-          transition: ease-in-out 0.5s;
+          svg {
+            color: $teal;
+            transition: ease-in-out 0.5s;
+          }
         }
-      }
-      &:hover {
         a {
-          color: teal;
+          color: $gold;
+          text-decoration: none;
           transition: ease-in-out 0.5s;
+          &:hover {
+            text-decoration: underline;
+            transition: ease-in-out 0.5s;
+          }
+        }
+        &:hover {
+          a {
+            color: teal;
+            transition: ease-in-out 0.5s;
+          }
         }
       }
     }

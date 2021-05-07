@@ -9,8 +9,7 @@ export class Main extends Component {
     return (
       <div className="MainContent">
         <div className="intro">
-          <h1>Main</h1>
-          <h3>Welcome to my Portfolio!</h3>
+          <h1>Welcome to my Portfolio!</h1>
           <p>
             <strong>Hey!</strong> My name is Gideon Jones! I'm 18 years old, and
             I've had a few years of experience coding. I'm graduating{" "}
