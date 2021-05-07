@@ -112,9 +112,17 @@ export class About extends Component {
               </a>
               ! I achieved this on July 20, 2017. It was a lot of hard work, but
               in the end it was worth it. For my project, I made 2 LEGO tables
-              for a nearby elementary school, so kids with special needs could
-              play with LEGOs. It was a really cool experience to give those to
-              the kids, everyone seemed so thrilled to have them.
+              for{" "}
+              <a
+                href="https://thunderridge.alpineschools.org/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Thunder Ridge Elementary
+              </a>
+              , so kids with special needs could play with LEGOs. It was a
+              really cool experience to give those to the kids, everyone seemed
+              so thrilled to have them.
             </p>
             <p>
               <FontAwesomeIcon icon={["fas", "store"]} />
