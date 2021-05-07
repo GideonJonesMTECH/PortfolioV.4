@@ -21,7 +21,7 @@ export class Main extends Component {
             >
               High School
             </a>{" "}
-            in only a month (crazy how life flies by), and I'm aslo graduating
+            in only a month (crazy how life flies by), and I'm also graduating
             from{" "}
             <a href="https://mtec.edu/" target="_blank" rel="noreferrer">
               MTECH
