@@ -15,6 +15,16 @@
         height: 30em;
         width: auto;
       }
+      a {
+        color: $gold;
+        text-decoration: none;
+        transition: ease-in-out 0.5s;
+        &:hover {
+          color: $teal;
+          text-decoration: underline;
+          transition: ease-in-out 0.5s;
+        }
+      }
     }
     .text {
       display: flex;
