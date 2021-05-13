@@ -10,14 +10,13 @@ library.add(fas, far, fab);
 export class About extends Component {
   render() {
     let randomImg = Math.floor(Math.random() * 9 + 1);
-    let usingImg = require(`../images/Abt${randomImg}.jpeg`).default;
     return (
       <div className="aboutTot">
         <h1>About Gideon</h1>
         <div className="aboutContent">
           <div className="photo">
             <img
-              src={usingImg}
+              src={process.env.PUBLIC_URL + `/images/Abt${randomImg}.jpeg`}
               alt="Gideon Senior"
               className="GideonSeniorPhoto"
             />
