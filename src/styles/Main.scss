@@ -5,7 +5,7 @@
   .intro {
     p {
       a {
-        color: $teal;
+        color: $blue;
         transition: ease-in-out 0.5s;
         border-bottom: 1px solid transparent;
         text-decoration: none;
@@ -24,29 +24,19 @@
     flex-wrap: wrap;
   }
 
-  .Projects {
-    ul {
-      li {
-        list-style-type: disc;
-        a {
-          color: $teal;
-          text-decoration: none;
-          border-bottom: 1px solid transparent;
-          transition: ease-in-out 0.5s;
-          margin-right: 1em;
-          svg {
-            padding: none;
-          }
-          &:hover {
-            transition: ease-in-out 0.5s;
-            color: $gold;
-            border-bottom: 1px solid $gold;
-          }
-        }
-        .disabled {
-          pointer-events: none;
-          color: $dark-silver;
-        }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    .Feature {
+      img {
+        border: solid 1px $blue;
+        border-radius: 0.5em;
+      }
+      .overlay {
+        border: solid 1px $teal;
+        border-radius: 0.5em;
       }
     }
   }

@@ -9,12 +9,13 @@
   justify-content: center;
   align-content: center;
   align-items: center;
-  img {
+  img.img {
     display: block;
     height: $imgSize;
     width: $imgSize;
   }
   .overlay {
+    display: flex;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -28,6 +29,7 @@
     opacity: 0;
     transition: 0.4s ease;
     background-image: linear-gradient(to bottom right, $teal, $teal, $blue);
+    border-radius: 0.5em;
     .text {
       padding: 1em;
       background-color: $offWhite;
@@ -38,9 +40,18 @@
       left: 50%;
       transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
-      h2 {
+      a {
+        text-decoration: none;
+      }
+      h2,
+      svg {
         font-size: 24px;
         color: $gold;
+        transition: ease-in-out 0.5s;
+        &:hover {
+          transition: ease-in-out 0.5s;
+          color: $blue;
+        }
       }
       p {
         font-size: 18px;

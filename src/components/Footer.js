@@ -8,14 +8,16 @@ export class Footer extends Component {
   };
 
   render() {
-    const logov4 = require("../images/GideonLogoV4Gold.png").default;
     return (
       <footer className="navbar" id="footer">
         <div>
           <div className="brand">
             {" "}
             <Link to="/PortfolioV.4/">
-              <img src={logov4} alt="Gideon's Portfolio"></img>
+              <img
+                src={process.env.PUBLIC_URL + "/images/GideonLogoV4Gold.png"}
+                alt="Gideon's Portfolio"
+              ></img>
             </Link>
           </div>
         </div>

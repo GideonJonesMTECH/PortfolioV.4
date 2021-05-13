@@ -2,7 +2,7 @@ import "../styles/Main.scss";
 import "../styles/Feature.scss";
 import { Component } from "react";
 import { MainFeature } from "./MainFeature";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { ProjectsFeature } from "./ProjectsFeature";
 
 export class Main extends Component {
   render() {
@@ -84,187 +84,92 @@ export class Main extends Component {
             description="I have experience in C++, I learned about it in the same classes as C#."
           />
         </div>
-
-        <div className="Projects">
-          <ul>
-            <li>
-              <a
-                href="https://pokemonmatching.web.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Group Angular Pokémon Matching Game
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/GroupAngularPokemon"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/React-Store/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                React E-Commerce Store
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/React-Store"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/Golf-Scorecard/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                JS Golf Scorecard
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/Golf-Scorecard"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/Angular-Golf-Scorecard/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Angular Golf Scorecard
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/Angular-Golf-Scorecard"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/To-Do-App/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                To-Do App
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/To-Do-App"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/MiHealthWebsite/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                HTML/CSS MiHealth
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/MiHealthWebsite"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/RYParisWebsite/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                HTML/CSS RYParis
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/RYParisWebsite"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <h5>Old Portfolios (Look how far I've come!)</h5>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/PortfolioV.0/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Portfolio 1 (Pre MTECH)
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/PortfolioV.0"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/PortfolioV.1/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Portfolio 2
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/PortfolioV.1/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/PortfolioV.2/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Portfolio 3
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/PortfolioV.2/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://gideonjonesmtech.github.io/PortfolioV.4/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Portfolio 4 (This One!)
-              </a>
-              <a
-                href="https://github.com/GideonJonesMTECH/PortfolioV.4/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FontAwesomeIcon icon={["fab", "github"]} />
-              </a>
-            </li>
-          </ul>
+        <h3>Check out some of my projects!</h3>
+        <div className="projects">
+          <ProjectsFeature
+            title="Group Angular Pokémon Matching Game"
+            appLink="https://pokemonmatching.web.app/"
+            gitLink="https://github.com/GideonJonesMTECH/GroupAngularPokemon"
+            description="A Group Project from Apr/19/2021 - May/5/2021."
+            imgsrc="pokemon"
+          />
+          <ProjectsFeature
+            title="React E-Commerce Store"
+            appLink="https://gideonjonesmtech.github.io/React-Store/"
+            gitLink="https://github.com/GideonJonesMTECH/React-Store"
+            description="A Group Project from Dec/17/2020 - Jan/8/2021"
+            imgsrc="store"
+          />
+          <ProjectsFeature
+            title="JS Golf Scorecard"
+            appLink="https://gideonjonesmtech.github.io/Golf-Scorecard/"
+            gitLink="https://github.com/GideonJonesMTECH/Golf-Scorecard"
+            description="Golf Scorecard with javascript. Oct/22/2020 - Nov/9/2020"
+            imgsrc="golfJS"
+          />
+          <ProjectsFeature
+            title="Angular Golf Scorecard"
+            appLink="https://gideonjonesmtech.github.io/Angular-Golf-Scorecard/"
+            gitLink="https://github.com/GideonJonesMTECH/Angular-Golf-Scorecard"
+            description="Golf Scorecard with Angular. Apr/1/2021 - Apr/12/2021"
+            imgsrc="golfNG"
+          />
+          <ProjectsFeature
+            title="To-Do App"
+            appLink="https://gideonjonesmtech.github.io/To-Do-App/"
+            gitLink="https://github.com/GideonJonesMTECH/To-Do-App"
+            description="To-Do app with Javascript. Sep/30/2020 - Oct/21/2020"
+            imgsrc="toDo"
+          />
+          <ProjectsFeature
+            title="HTML/CSS RYParis"
+            appLink="https://gideonjonesmtech.github.io/RYParisWebsite/"
+            gitLink="https://github.com/GideonJonesMTECH/RYParisWebsite"
+            description="Simple Restaurant Mock-Up. Aug/26/2020 - Sep/4/2020"
+            imgsrc="paris"
+          />
+          <ProjectsFeature
+            title="HTML/CSS MiHealth"
+            appLink="https://gideonjonesmtech.github.io/MiHealthWebsite/"
+            gitLink="https://github.com/GideonJonesMTECH/MiHealthWebsite"
+            description="Simple Health Site Mock-Up. Aug/27/2020 - Aug/31/2020"
+            imgsrc="health"
+          />
+          <div className="portfolios">
+            <div className="text">
+              <h5>Old Portfolios (Look how far I've come!)</h5>
+            </div>
+            <div className="features">
+              <ProjectsFeature
+                title="Portfolio 1 (Pre MTECH)"
+                appLink="https://gideonjonesmtech.github.io/PortfolioV.0/"
+                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.0"
+                description="Simple Portfolio, Before MTECH. Aug/15/2020"
+                imgsrc="portfolio1"
+              />
+              <ProjectsFeature
+                title="Portfolio 2"
+                appLink="https://gideonjonesmtech.github.io/PortfolioV.1/"
+                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.1/"
+                description="HTML/CSS Portfolio. Sep/9/2020"
+                imgsrc="portfolio2"
+              />
+              <ProjectsFeature
+                title="Portfolio 3"
+                appLink="https://gideonjonesmtech.github.io/PortfolioV.2/"
+                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.2/"
+                description="HTML/SASS Portfolio. Sep/15/2020"
+                imgsrc="portfolio3"
+              />
+              <ProjectsFeature
+                title="Portfolio 4 (This One!)"
+                appLink="https://gideonjonesmtech.github.io/PortfolioV.4/"
+                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.4/"
+                description="Current Portfolio. Apr/23/2021 - Current"
+                imgsrc="portfolio4"
+              />
+            </div>
+          </div>
         </div>
       </div>
     );
