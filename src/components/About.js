@@ -62,7 +62,7 @@ export class About extends Component {
               </a>
               , and all the possibilities that came with that. I've been coding
               off and on with Unity since. I'm currently working on a 3D
-              Original <i>Zelda</i> Clone, and a Metriodvania, which have been
+              Original <i>Zelda</i> Clone, and a Metroidvania, which have been
               some really fun projects.
             </p>
             <p>
