@@ -25,13 +25,14 @@ export class Main extends Component {
             <a href="https://mtec.edu/" target="_blank" rel="noreferrer">
               MTECH
             </a>{" "}
-            in May, but I'll talk about that a bit more later. I'm an up and
-            coming Web Developer with some experience in normal HTML and CSS,
-            React (which I used to make this Portfolio), and Angular! I'm
-            currently based in Lehi, Utah.
+            in May, but I'll talk about that a bit more later. I'm a Web
+            Developer! I have experience in normal HTML, CSS, SASS, React (which
+            I used to make this Portfolio), and Angular! I'm currently based in
+            Lehi, Utah.
           </p>{" "}
-          <h3>Check out some of what I've done below!</h3>
         </div>
+        <h3>Check out some of what I've done below!</h3>
+        <h6>Try Hovering Over the Images!</h6>
         <div className="features">
           <MainFeature
             imgsrc="https://logos-download.com/wp-content/uploads/2017/07/HTML5_badge.png"
