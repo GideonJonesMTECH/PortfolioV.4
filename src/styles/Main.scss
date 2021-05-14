@@ -40,4 +40,36 @@
       }
     }
   }
+
+  .resume {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    padding: 1em 0em;
+    a {
+      padding: 0;
+      margin: 0;
+      margin-left: 2em;
+      button {
+        border-radius: 0.5em;
+        color: $offWhite;
+        background-color: $blue;
+        border: none;
+        padding: 0.5em 0.75em;
+        margin: 0;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 18px;
+        transition: 0.5s ease-in-out;
+      }
+      &:hover {
+        button {
+          background-color: $gold;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
 }

@@ -3,6 +3,7 @@ import "../styles/Feature.scss";
 import { Component } from "react";
 import { MainFeature } from "./MainFeature";
 import { ProjectsFeature } from "./ProjectsFeature";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export class Main extends Component {
   render() {
@@ -30,6 +31,19 @@ export class Main extends Component {
             I used to make this Portfolio), and Angular! I'm currently based in
             Lehi, Utah.
           </p>{" "}
+        </div>
+        <div className="resume">
+          <h5>Check out my Resumé!</h5>
+          <a
+            href={process.env.PUBLIC_URL + `/images/Resume-Gideon-Jones.pdf`}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>
+              {" "}
+              <FontAwesomeIcon icon={["fas", "file-alt"]} />
+            </button>
+          </a>
         </div>
         <h3>Check out some of what I've done below!</h3>
         <h6>Try Hovering Over the Images!</h6>
