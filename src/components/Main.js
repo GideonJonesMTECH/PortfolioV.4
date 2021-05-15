@@ -105,7 +105,7 @@ export class Main extends Component {
             title="Group Angular Pokémon Matching Game"
             appLink="https://pokemonmatching.web.app/"
             gitLink="https://github.com/GideonJonesMTECH/GroupAngularPokemon"
-            description="A Group Project from Apr/19/2021 - May/5/2021."
+            description="A Group Project from Apr/19/2021 - May/5/2021"
             imgsrc="pokemon"
           />
           <ProjectsFeature
