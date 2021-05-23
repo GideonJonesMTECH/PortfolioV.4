@@ -1,0 +1,36 @@
+@import "colors";
+
+.Portfolio {
+  display: flex;
+  margin: 1em;
+  border: 1px $dark solid;
+  border-radius: 0.5em;
+  img {
+    height: 400px;
+    width: auto;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+  }
+  div {
+    background-color: $off-white;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    width: 100%;
+    padding: 0.25em;
+    .links {
+      display: flex;
+      justify-content: space-between;
+      a {
+        color: $teal;
+        text-decoration: none;
+        transition: 0.5s ease-in-out;
+        font-size: 24px;
+        margin: 0.5em;
+        &:hover {
+          color: $gold;
+          transition: 0.5s ease-in-out;
+        }
+      }
+    }
+  }
+}

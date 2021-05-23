@@ -47,6 +47,10 @@ export class Header extends Component {
               <Link to="/PortfolioV.4/contact">Contact</Link>
             </li>
             <li>
+              {" "}
+              <Link to="/PortfolioV.4/portfolios">Portfolios</Link>
+            </li>
+            <li>
               <a
                 href="https://github.com/GideonJonesMTECH"
                 target="_blank"

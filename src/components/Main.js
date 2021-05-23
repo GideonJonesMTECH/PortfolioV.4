@@ -150,41 +150,6 @@ export class Main extends Component {
             description="Simple Health Site Mock-Up. Aug/27/2020 - Aug/31/2020"
             imgsrc="health"
           />
-          <div className="portfolios">
-            <div className="text">
-              <h5>Old Portfolios (Look how far I've come!)</h5>
-            </div>
-            <div className="features">
-              <ProjectsFeature
-                title="Portfolio 1 (Pre MTECH)"
-                appLink="https://gideonjonesmtech.github.io/PortfolioV.0/"
-                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.0"
-                description="Simple Portfolio, Before MTECH. Aug/15/2020"
-                imgsrc="portfolio1"
-              />
-              <ProjectsFeature
-                title="Portfolio 2"
-                appLink="https://gideonjonesmtech.github.io/PortfolioV.1/"
-                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.1/"
-                description="HTML/CSS Portfolio. Sep/9/2020"
-                imgsrc="portfolio2"
-              />
-              <ProjectsFeature
-                title="Portfolio 3"
-                appLink="https://gideonjonesmtech.github.io/PortfolioV.2/"
-                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.2/"
-                description="HTML/SASS Portfolio. Sep/15/2020"
-                imgsrc="portfolio3"
-              />
-              <ProjectsFeature
-                title="Portfolio 4 (This One!)"
-                appLink="https://gideonjonesmtech.github.io/PortfolioV.4/"
-                gitLink="https://github.com/GideonJonesMTECH/PortfolioV.4/"
-                description="Current Portfolio. Apr/23/2021 - Current"
-                imgsrc="portfolio4"
-              />
-            </div>
-          </div>
         </div>
       </div>
     );
