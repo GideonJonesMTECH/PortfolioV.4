@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export class OldPortfolios extends Component {
   render() {
     return (
-      <div>
+      <div id="portfolioContainer">
         <h1>Portfolios</h1>
         <div class="Portfolio" id="1">
           <img
